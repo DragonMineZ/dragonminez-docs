@@ -1,0 +1,174 @@
+site_name: DragonMine Z - Documentation
+site_url: https://dragonminez.com/
+theme:
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+   - navigation.instant
+   - navigation.instant.progress
+   - navigation.instant.preview
+   - navigation.tracking
+   - navigation.path
+   - navigation.indexes
+   - toc.follow
+   - navigation.top
+   - search.suggest
+   - search.highlight
+   - search.share
+   - content.code.annotate
+   - content.code.copy
+   - content.code.selected
+
+extra:
+  generator: false
+  homepage: https://dragonminez.com/home
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/b5MgRNb3D7
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/DragonMineZ
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@DragonMine-Z
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/DragonMineZ
+    - icon: fontawesome/brands/github
+      link: https://github.com/DragonMineZ/dragonminez
+#  alternate:
+#    - name: English
+#      link: /home
+#      lang: en
+#    - name: Español
+#      link: /es/home
+#      lang: es
+
+repo_url: https://github.com/DragonMineZ/dragonminez
+repo_name: DragonMineZ/dragonminez
+copyright: Copyright © 2024 - 2025 | DragonMine Z
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          nav_translations:
+            Home: Home
+            About: About
+            Credits: Credits
+            License: License
+            Support: Support
+            Wiki: Wiki
+            Getting Started: Getting Started
+            Servers: Servers
+            Server Support: Server Support
+            General Config: General Config
+            Racial Config: Racial Config
+            Commands: Commands
+            Character: Character
+            Locations: Locations
+            Skills: Skills
+            Transformations: Transformations
+            Storyline: Storyline
+            Items: Items
+            Blocks: Blocks
+            Armors: Armors
+            Entities: Entities
+            Contributing: Contributing
+            Translate: Translate
+            Other Contributions: Other Contributions
+        - locale: es
+          default: false
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+            About: Acerca de
+            Credits: Créditos
+            License: Licencia
+            Support: Soporte
+            Wiki: Wiki
+            Getting Started: Guía de Inicio
+            Servers: Servidores
+            Server Support: Soporte para Servidores
+            General Config: Configuración General
+            Racial Config: Configuración Racial
+            Commands: Comandos
+            Character: Personaje
+            Locations: Localizaciones
+            Skills: Habilidades
+            Transformations: Transformaciones
+            Storyline: Historia
+            Items: Objetos
+            Blocks: Bloques
+            Armors: Armaduras
+            Entities: Entidades
+            Contributing: Contribuciones
+            Translate: Traducir el Mod
+            Other Contributions: Otras Contribuciones
+
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - tables
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+
+
+
+nav:
+  - Home: home.md
+  - About:
+    - Credits: about/credits.md
+    - License: about/license.md
+    - Support: about/support.md
+  - Wiki: 
+    - Getting Started: wiki/gettingstarted.md
+    - Servers: 
+      - Server Support: wiki/servers/support.md
+      - General Config: wiki/servers/generalconfig.md
+      - Racial Config: wiki/servers/racialconfig.md
+      - Commands: wiki/servers/commands.md
+    - Character: wiki/character.md
+    - Locations: wiki/locations.md
+    - Skills: wiki/skills.md
+    - Transformations: wiki/transformations.md
+    - Storyline: wiki/storyline.md
+    - Items: wiki/items.md
+    - Blocks: wiki/blocks.md
+    - Armors: wiki/armors.md
+    - Entities: wiki/entities.md
+  - Contributing:
+    - Translate: contributing/translate.md
+    - Other Contributions: contributing/othercontributions.md
