@@ -1,5 +1,10 @@
 site_name: DragonMine Z - Documentation
-site_url: https://dragonminez.com/
+site_url: https://dragonminez.github.io/dragonminez-docs/
+docs_dir: ../docs/
+
+repo_name: DragonMineZ/dragonminez-docs
+repo_url: https://github.com/DragonMineZ/dragonminez-docs
+
 theme:
   logo: assets/logo.png
   icon:
