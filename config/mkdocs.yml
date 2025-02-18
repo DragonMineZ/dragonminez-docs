@@ -2,8 +2,9 @@ site_name: DragonMine Z - Documentation
 site_url: https://dragonminez.github.io/dragonminez-docs/
 docs_dir: ../docs/
 
-repo_name: DragonMineZ/dragonminez-docs
-repo_url: https://github.com/DragonMineZ/dragonminez-docs
+repo_url: https://github.com/DragonMineZ/dragonminez
+repo_name: DragonMineZ/dragonminez
+copyright: Copyright © 2024 - 2025 | DragonMine Z
 
 theme:
   logo: assets/logo.png
@@ -49,17 +50,6 @@ extra:
       link: https://twitter.com/DragonMineZ
     - icon: fontawesome/brands/github
       link: https://github.com/DragonMineZ/dragonminez
-#  alternate:
-#    - name: English
-#      link: /home
-#      lang: en
-#    - name: Español
-#      link: /es/home
-#      lang: es
-
-repo_url: https://github.com/DragonMineZ/dragonminez
-repo_name: DragonMineZ/dragonminez
-copyright: Copyright © 2024 - 2025 | DragonMine Z
 
 plugins:
   - search
@@ -125,7 +115,6 @@ plugins:
             Translate: Traducir el Mod
             Other Contributions: Otras Contribuciones
 
-
 extra_css:
   - stylesheets/extra.css
 
@@ -148,9 +137,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
-
-
 
 nav:
   - Home: index.md
