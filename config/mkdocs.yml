@@ -83,7 +83,8 @@ plugins:
             Armors: Armors
             Entities: Entities
             Contributing: Contributing
-            Translate: Translate
+            Translate the Mod: Translate the mod
+            Translate the Docs: Translate the docs
             Other Contributions: Other Contributions
         - locale: es
           default: false
@@ -112,13 +113,17 @@ plugins:
             Armors: Armaduras
             Entities: Entidades
             Contributing: Contribuciones
-            Translate: Traducir el Mod
+            Translate the Mod: Traducir el mod
+            Translate the Docs: Traducir la documentación
             Other Contributions: Otras Contribuciones
 
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -132,6 +137,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.smartsymbols
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -161,5 +167,6 @@ nav:
     - Armors: wiki/armors.md
     - Entities: wiki/entities.md
   - Contributing:
-    - Translate: contributing/translate.md
+    - Translate the Mod: contributing/translate.md
+    - Translate the Docs: contributing/translatedocs.md
     - Other Contributions: contributing/othercontributions.md

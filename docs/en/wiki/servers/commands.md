@@ -52,7 +52,7 @@ These commands are available only to players with the appropriate permissions.
      - If `Objective` is used, the `id` should be the quest id, for example, `saiyQuest3`.
      - `Completed` should be replaced by the status you want to set, `true` or `false`.
 2. `/dmzstoryline get <saga|quest|objective> <id>`
-     - asdasdsadas
+     - **TBD**
 3. `/dmzstoryline reset <saga|quest|all> <id>`
      - Reset the status of a saga or quest of a player.
      - If `Saga` is used, the `id` should be the saga id, for example, `saiyan`.
@@ -63,9 +63,9 @@ These commands are available only to players with the appropriate permissions.
      - If `Quests` is used, it will list all quests.
      - If `Objectives` is used, it will list all objectives.
 5. `/dmzstoryline debug data`
-     - asdasdasdasdsa
+     - **TBD**
 6. `/dmzstoryline debug start <saga|quest> <id>`
-     - asdasdasdasdsa
+     - **TBD**
 
 ## ***Server Useful* Commands:**
 

@@ -48,12 +48,14 @@ Before installing a mod for Minecraft Forge 1.20.1, ensure you have the followin
 1. **Make sure to select the Default World Type**.
 2. If your world loading gets stuck at 20% or 30%, it's completely normal. The mod is generating the structures and biomes.
 3. Once the world is loaded, you will be granted the **DragonMine Z Advancement**.
-4. **Press `V` to Open the Character Creation Menu**
+4. **Press ++v++ to Open the Character Creation Menu**
      - Choose your favorite race!
      - Customize your character's appearance, colors, and fighting style.
      - Once finished, click **Confirm** and you should see the new **Custom GUI** on the top left corner.
-5. **Press `V` again to Open the Stats Menu**
+5. **Press ++v++ again to Open the Stats Menu**
      - Here you can see your character's stats, level, and TP.
+     - First, you have to release your power, it's represented by the `0%` text in the top left corner.
+     - To release your power, you have to hold the ++c++ key, then you'll be able to see it increase up to 50%, the maximum you can reach without having the `Potential Unlock` skill.
      - To obtain your first **Training Points**, you need to punch or kill entities! Doesn't matter if it's a cow or a zombie, just punch it!
      - You can allocate your **Training Points** to increase your character's stats.
      - **Note**: If you're building `STR`, it's recommended to have the same `CON` to avoid consuming all your stamina in one hit, the less stamina you have, the less damage you deal, so be careful!
@@ -78,7 +80,7 @@ Before installing a mod for Minecraft Forge 1.20.1, ensure you have the followin
 1. **Train your character**
      - You can train your character by punching or killing entities, or by using the Hyperbolic Time Chamber.
      - Once you think you're strong enough, you can start the Storyline!
-     - To progress through the Storyline, you need to open the `V` menu and click on the **Storyline** button.
+     - To progress through the Storyline, you need to open the ++v++ menu and click on the **Storyline** button.
 2. **Fight powerful enemies**
      - The Storyline will make you face powerful enemies, such as Raditz, Nappa, Vegeta, and more!
      - Make sure to train and level up your character to face these challenges.
@@ -95,7 +97,7 @@ Before installing a mod for Minecraft Forge 1.20.1, ensure you have the followin
      - Make sure to explore the world and find hidden secrets!
 2. **Once you're ready, you can learn the SuperForms!**
      - SuperForms are the Main Transformations for every race.
-     - To learn them, you'll have to progress in the Storyline and they'll be added to the `V` menu.
+     - To learn them, you'll have to progress in the Storyline and they'll be added to the ++v++ menu.
      - Alternatively, you can modify the config to learn make them buyable with TP.
 3. **Have fun!**
      - The main goal of DragonMine Z is to have fun and enjoy the Dragon Ball universe in Minecraft.
