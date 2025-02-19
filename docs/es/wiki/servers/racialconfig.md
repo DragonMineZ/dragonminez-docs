@@ -17,11 +17,11 @@ If a race have a `CON` multiplier of 1.8 and 100 points in the CON stat, will ha
 
 | Stat    | Min Value | Default Value | Max Value   |
 |---------|-----------|---------------|-------------|
-| STR     | 1.0       | 1.2           | 200.0       |
-| DEF     | 1.0       | 1.2           | 200.0       |
-| CON     | 1.0       | 1.2           | 200.0       |
-| PWR     | 1.0       | 1.2           | 200.0       |
-| ENE     | 1.0       | 1.2           | 200.0       |
+| STR     | 1.0       | 1.0           | 200.0       |
+| DEF     | 1.0       | 1.0           | 200.0       |
+| CON     | 1.0       | 1.0           | 200.0       |
+| PWR     | 1.0       | 1.0           | 200.0       |
+| ENE     | 1.0       | 1.0           | 200.0       |
 
 ##### This table can be used as reference for both classes.  
 Remember that, if you modify the `Warrior Class Multiplier` in the `DMZSaiyanConfig.toml` file, you have to create a Saiyan using the Warrior Class to see the changes.  
