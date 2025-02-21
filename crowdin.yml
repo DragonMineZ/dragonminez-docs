@@ -8,5 +8,6 @@
   {
     "source": "docs/en/**/*.md",
     "translation": "docs/%two_letters_code%/**/%original_file_name%",
+    "excluded_target_languages": ["zh-TW", "pt-BR", "es-AR", "es-CL", "es-EC", "es-MX", "es-UY", "es-VE"]
   }
 ]
