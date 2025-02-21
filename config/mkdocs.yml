@@ -176,7 +176,7 @@ plugins:
           default: false
           name: Nederlands
           build: true
-        - locale: "no"
+        - locale: "nb"
           default: false
           name: Norsk
           build: true
