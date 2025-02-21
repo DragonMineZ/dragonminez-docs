@@ -1,7 +1,7 @@
 ### ***Home***
 Welcome to the DragonMine Z documentation! Here you will find almost everything you need to know about the mod.
 
-[![DragonMineZ](./assets/dmzbanner.png)](https://dragonminez.github.com)
+[![DragonMineZ](./assets/dmzbanner.png)](https://github.com/DragonMineZ)
 
 [![Discord](https://img.shields.io/discord/1216429657273012415?style=for-the-badge&logo=Discord&logoColor=white&label=Discord&color=orange)](https://discord.gg/b5MgRNb3D7)
 [![Patreon](https://img.shields.io/badge/Patreon-Subscribe-yellow?style=for-the-badge&logo=Patreon)](https://www.patreon.com/dragonminez)
