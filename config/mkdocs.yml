@@ -204,7 +204,7 @@ plugins:
           default: false
           name: Svenska
           build: true
-        - locale: tr
+        - locale: "tr"
           default: false
           name: Türkçe
           build: true
