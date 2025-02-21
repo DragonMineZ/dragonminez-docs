@@ -118,23 +118,23 @@ plugins:
             Other Contributions: Otras Contribuciones
         - locale: af
           default: false
-          name: Afrikaans
+          name: "Afrikaans"
           build: true
         - locale: ar
           default: false
-          name: العربية
+          name: """العربية"""
           build: true
         - locale: ca
           default: false
-          name: Català
+          name: "Català"
           build: true
         - locale: cs
           default: false
-          name: Čeština
+          name: "Čeština"
           build: true
         - locale: da
           default: false
-          name: Dansk
+          name: "Dansk"
           build: true
         - locale: de
           default: false
@@ -142,7 +142,7 @@ plugins:
           build: true
         - locale: el
           default: false
-          name: Ελληνικά
+          name: "Ελληνικά"
           build: true
         - locale: fi
           default: false
@@ -154,7 +154,7 @@ plugins:
           build: true
         - locale: he
           default: false
-          name: עברית
+          name: "עברית"
           build: true
         - locale: hu
           default: false
@@ -204,7 +204,7 @@ plugins:
           default: false
           name: Svenska
           build: true
-        - locale: "tr"
+        - locale: tr
           default: false
           name: Türkçe
           build: true
