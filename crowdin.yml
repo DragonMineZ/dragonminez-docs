@@ -6,7 +6,7 @@
 
 "files": [
   {
-    "source": "/WikiDocs/en/**/*.md",
+    "source": "/WikiDocs/**/*.md",
     "translation": "/WikiDocs/%two_letters_code%/**/%original_file_name%",
   }
 ]
