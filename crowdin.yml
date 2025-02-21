@@ -7,6 +7,6 @@
 "files": [
   {
     "source": "docs/en/**/*.md",
-    "translation": "docs/%locale_with_underscore%/**/%original_file_name%",
+    "translation": "docs/%two_letters_code%/**/%original_file_name%",
   }
 ]
