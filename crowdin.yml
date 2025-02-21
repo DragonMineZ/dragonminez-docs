@@ -1,0 +1,45 @@
+"project_id_env": "CROWDIN_PROJECT_ID"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_path": "./docs/"
+
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "source": "/WikiDocs/en/**/*.md",
+    "translation": "/%two_letters_code%/**/%original_file_name%",
+    "languages_mapping": {
+      "locale_with_underscore": {
+        "af-ZA": "af_za",
+        "ar-SA": "ar_sa",
+        "ca-ES": "ca_es",
+        "zh-CN": "zh_cn",
+        "zh-TW": "zh_tw",
+        "cs-CZ": "cs_cz",
+        "da-DK": "da_dk",
+        "nl-NL": "nl_nl",
+        "fi-FI": "fi_fi",
+        "fr-FR": "fr_fr",
+        "de-DE": "de_de",
+        "el-GR": "el_gr",
+        "he-IL": "he_il",
+        "hu-HU": "hu_hu",
+        "it-IT": "it_it",
+        "ja-JP": "ja_jp",
+        "ko-KR": "ko_kr",
+        "no-NO": "no_no",
+        "pl-PL": "pl_pl",
+        "pt-PT": "pt_pt",
+        "pt-BR": "pt_br",
+        "ro-RO": "ro_ro",
+        "ru-RU": "ru_ru",
+        "sr-RS": "sr_rs",
+        "es-ES": "es_es",
+        "sv-SE": "sv_se",
+        "tr-TR": "tr_tr",
+        "uk-UA": "uk_ua",
+        "vi-VN": "vi_vn"
+      }
+    }
+  }
+]

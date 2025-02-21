@@ -1,0 +1,84 @@
+name: Crowdin Check & Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/en/**/*.md
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  crowdin-sync-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check modified files
+        id: check_files
+        run: |
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          ONLY_EN=true
+          ONLY_OTHER_LANG=true
+          BOTH_CHANGED=false
+          
+          for FILE in $CHANGED_FILES; do
+            if [[ "$FILE" == docs/en/*.md ]]; then
+              ONLY_OTHER_LANG=false
+            elif [[ "$FILE" == docs/*/*.md && "$FILE" != docs/en/*.md ]]; then
+              ONLY_EN=false
+            fi
+          done
+          
+          if [[ "$ONLY_EN" == false && "$ONLY_OTHER_LANG" == false ]]; then
+            BOTH_CHANGED=true
+          fi
+          
+          echo "only_en=$ONLY_EN" >> $GITHUB_ENV
+          echo "only_other_lang=$ONLY_OTHER_LANG" >> $GITHUB_ENV
+          echo "both_changed=$BOTH_CHANGED" >> $GITHUB_ENV
+
+      - name: Crowdin Sync - Only English files
+        if: env.only_en == 'true'
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: true
+          localization_branch_name: crowdin_translations
+          create_pull_request: true
+          pull_request_title: 'New Crowdin Translations'
+          pull_request_body: 'Pull Request started, received different files from Crowdin containing translations'
+          pull_request_base_branch_name: 'main'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Crowdin Sync - Only translated files
+        if: env.only_other_lang == 'true'
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: true
+          download_translations: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Crowdin Sync - Both English and translated files
+        if: env.both_changed == 'true'
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          download_translations: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
