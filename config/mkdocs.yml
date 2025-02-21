@@ -117,109 +117,109 @@ plugins:
             Translate the Docs: Traducir la documentación
             Other Contributions: Otras Contribuciones
         - locale: af
-          default: false
-          name: "Afrikaans"
-          build: true
+          default: "false"
+          name: Afrikaans
+          build: "true"
         - locale: ar
-          default: false
-          name: "العربية"
-          build: true
+          default: "false"
+          name: العربية
+          build: "true"
         - locale: ca
-          default: false
-          name: "Català"
-          build: true
+          default: "false"
+          name: Català
+          build: "true"
         - locale: cs
-          default: false
-          name: "Čeština"
-          build: true
+          default: "false"
+          name: Čeština
+          build: "true"
         - locale: da
-          default: false
-          name: "Dansk"
-          build: true
+          default: "false"
+          name: Dansk
+          build: "true"
         - locale: de
-          default: false
+          default: "false"
           name: Deutsch
-          build: true
+          build: "true"
         - locale: el
-          default: false
-          name: "Ελληνικά"
-          build: true
+          default: "false"
+          name: Ελληνικά
+          build: "true"
         - locale: fi
-          default: false
+          default: "false"
           name: Suomi
-          build: true
+          build: "true"
         - locale: fr
-          default: false
+          default: "false"
           name: Français
-          build: true
+          build: "true"
         - locale: he
-          default: false
-          name: "עברית"
-          build: true
+          default: "false"
+          name: עברית
+          build: "true"
         - locale: hu
-          default: false
+          default: "false"
           name: Magyar
-          build: true
+          build: "true"
         - locale: it
-          default: false
+          default: "false"
           name: Italiano
-          build: true
+          build: "true"
         - locale: ja
-          default: false
+          default: "false"
           name: 日本語
-          build: true
+          build: "true"
         - locale: ko
-          default: false
+          default: "false"
           name: 한국어
-          build: true
+          build: "true"
         - locale: nl
-          default: false
+          default: "false"
           name: Nederlands
-          build: true
+          build: "true"
         - locale: no
-          default: false
+          default: "false"
           name: Norsk
-          build: true
+          build: "true"
         - locale: pl
-          default: false
+          default: "false"
           name: Polski
-          build: true
+          build: "true"
         - locale: pt
-          default: false
+          default: "false"
           name: Português
-          build: true
+          build: "true"
         - locale: ro
-          default: false
+          default: "false"
           name: Română
-          build: true
+          build: "true"
         - locale: ru
-          default: false
+          default: "false"
           name: Русский
-          build: true
+          build: "true"
         - locale: sr
-          default: false
+          default: "false"
           name: Српски
-          build: true
+          build: "true"
         - locale: sv
-          default: false
+          default: "false"
           name: Svenska
-          build: true
+          build: "true"
         - locale: tr
-          default: false
+          default: "false"
           name: Türkçe
-          build: true
+          build: "true"
         - locale: uk
-          default: false
+          default: "false"
           name: Українська
-          build: true
+          build: "true"
         - locale: vi
-          default: false
+          default: "false"
           name: Tiếng Việt
-          build: true
+          build: "true"
         - locale: zh
-          default: false
+          default: "false"
           name: 简体中文
-          build: true
+          build: "true"
 
 
 extra_css:
