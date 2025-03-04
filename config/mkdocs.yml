@@ -1,5 +1,5 @@
 site_name: DragonMine Z - Documentation
-site_url: https://dragonminez.github.io/dragonminez-docs/
+site_url: https://docs.dragonminez.com/
 docs_dir: ../docs/
 
 repo_url: https://github.com/DragonMineZ/dragonminez
@@ -38,7 +38,7 @@ theme:
 
 extra:
   generator: false
-  homepage: https://dragonminez.com/home
+  homepage: https://dragonminez.com/
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/b5MgRNb3D7
