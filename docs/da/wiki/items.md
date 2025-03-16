@@ -36,6 +36,6 @@ The Special Items are items that have a unique use.\
 Currently, there's only one that has a function, but in the future we may add more:
 
 - **Fruit of the Tree of Might**: When you consume it, you will get a buff that multiplies all your stats by `x1.2` for 5 minutes.
-  - Notes: You can only consume one Fruit of the Tree of Might at a time, if you have the buff and consume another one, the buff will be refreshed, but not stacked.
-  - The buff will be removed if you die, so be careful!
+     - Notes: You can only consume one Fruit of the Tree of Might at a time, if you have the buff and consume another one, the buff will be refreshed, but not stacked.
+     - The buff will be removed if you die, so be careful!
 - **Pothalas**: Currently, the Pothalas are implemented but they don't have any use yet. In the future, we're planning to add a way to fuse with another player using the Pothalas, but we're still discussing how it will work and how it will be balanced!

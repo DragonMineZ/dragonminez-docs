@@ -19,7 +19,7 @@ Anyways, here are some of the most important configurations you can change:
 
 - [General Configs](generalconfig.md)
 - [Racial Configs](racialconfig.md)
-  - **Note**: Remember to restart your server after changing any configuration to apply the changes.
+ - **Note**: Remember to restart your server after changing any configuration to apply the changes.
 
 Also, here are all the information you need to know about the commands that DragonMine Z adds to the game:
 

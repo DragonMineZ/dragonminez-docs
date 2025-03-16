@@ -35,7 +35,7 @@ Before installing a mod for Minecraft Forge 1.20.1, ensure you have the followin
    - **MacOS**: `~/Library/Application Support/minecraft`
    - **Linux**: `~/.minecraft`
    - Locate the `mods` folder.
-     - **Note**: You may need to create the `mods` folder if it doesn't exist. Make sure to write the folder name in lowercase.
+      - **Note**: You may need to create the `mods` folder if it doesn't exist. Make sure to write the folder name in lowercase.
    - Move the downloaded `.jar` files into the `mods` folder.
 
 ### Step 3: Launch Minecraft with Forge
