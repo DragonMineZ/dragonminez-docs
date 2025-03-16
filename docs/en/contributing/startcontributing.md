@@ -17,7 +17,7 @@ Please follow the guidelines below to ensure a smooth process for all contributo
      your concern or proposed your idea.
 3. **Fork the Repository**
 
-   - Clone your fork to your local environment for testing and development:
+   - If you are contributing to the mod directly, clone your fork to your local environment for testing and development:
 
    ```bash
    git clone https://github.com/your-username/DragonMineZ.git
@@ -52,7 +52,11 @@ a [Feature Request](https://github.com/DragonMineZ/DragonMineZ/issues/new?templa
 - Potential benefits and impact
 - Any alternatives or related concepts
 
-###### Alternatively, you can suggest features in our Discord server.
+### 📚 Translating to your language
+
+Whether you want to translate the mod to your preferred language, or the documentation, feel free to check the [translating the mod](translate.md) or the [translating the docs](translatedocs.md) section.
+
+###### You can also suggest features, report bugs, or send your translations to our Discord Server.
 
 ### ⏳ Submitting Pull Requests (PRs)
 
@@ -103,7 +107,7 @@ Go to your fork on GitHub and submit a [Pull Request](https://github.com/DragonM
 2. **Documentation**
 
    - Update or add documentation for new or modified features.
-   - Ensure the [Wiki (TBD)](https://dragonminez.github.io/dragonminez-docs/) reflects major changes.
+   - Ensure the [Wiki](https://docs.dragonminez.com/) reflects major changes.
 3. **Testing**
 
    - Test thoroughly across relevant scenarios.

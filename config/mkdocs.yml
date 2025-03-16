@@ -83,9 +83,9 @@ plugins:
             Armors: Armors
             Entities: Entities
             Contributing: Contributing
+            Starting to Contribute: Starting to Contribute
             Translate the Mod: Translate the mod
             Translate the Docs: Translate the docs
-            Other Contributions: Other Contributions
         - locale: es
           default: false
           name: Español
@@ -113,9 +113,9 @@ plugins:
             Armors: Armaduras
             Entities: Entidades
             Contributing: Contribuciones
+            Starting to Contribute: Comenzando a Contribuir
             Translate the Mod: Traducir el mod
             Translate the Docs: Traducir la documentación
-            Other Contributions: Otras Contribuciones
         - locale: "af"
           default: false
           name: Afrikaans
@@ -272,6 +272,6 @@ nav:
     - Armors: wiki/armors.md
     - Entities: wiki/entities.md
   - Contributing:
+    - Starting to Contribute: contributing/startcontributing.md
     - Translate the Mod: contributing/translate.md
     - Translate the Docs: contributing/translatedocs.md
-    - Other Contributions: contributing/othercontributions.md
